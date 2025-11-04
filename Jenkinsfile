@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         AWS_REGION = 'eu-west-1'  // region
-        ECR_REGISTRY = '412128479181.dkr.ecr.eu-west-1.amazonaws.com/nginx-docker-app'  //  ECR registry
+        ECR_REGISTRY = '412128479181.dkr.ecr.eu-west-1.amazonaws.com'  //  ECR registry
         ECR_REPOSITORY = 'nginx-docker-app'
         IMAGE_TAG = "${BUILD_NUMBER}"
         AWS_CREDENTIAL_ID = 'aws-ecr-credentials'
