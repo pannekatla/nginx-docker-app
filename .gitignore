@@ -1,0 +1,2 @@
+# Ignore any build artifacts or logs
+*.log
